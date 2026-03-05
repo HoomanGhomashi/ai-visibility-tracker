@@ -35,7 +35,7 @@ st.write("Outil d'analyse SEO à l'ère de l'intelligence artificielle (Optimisa
 with st.container():
     col1, col2 = st.columns(2)
     with col1:
-        target_brand = st.text_input("💎 Votre marque ou domaine :", placeholder="Ex : Tesla ou digikala.com")
+        target_brand = st.text_input("💎 Votre marque ou domaine :", placeholder="Ex : Tesla ou Bmw")
     with col2:
         query = st.text_input("🔍 Question de l'utilisateur (Requête) :", placeholder="Ex : Quelle est la meilleure voiture électrique au monde ?")
 
